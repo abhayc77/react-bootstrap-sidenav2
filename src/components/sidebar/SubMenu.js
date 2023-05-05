@@ -26,21 +26,21 @@ class SubMenu extends React.Component {
         return (
             <Nav.Item className={classNames({ open: !this.state.collapsed })}>
                 <Accordion>
-                    <Accordion.Toggle
+                    <Accordion.Button
                         as={Nav.Link}
                         variant="link"
                         eventKey="0"
                         onClick={this.toggleNavbar}
                     >
-                        <FontAwesomeIcon icon={icon} className="mr-2" />
+                        <FontAwesomeIcon icon={icon} className="me-2" />
                         {title}
-                        <FontAwesomeIcon
+                        {/*<FontAwesomeIcon
                             icon={this.state.collapsed ? faCaretDown : faCaretUp}
                             className="float-right"
-                        />
-                    </Accordion.Toggle>
+                        />*/}
+                    </Accordion.Button>
 
-                    <Accordion.Collapse eventKey="0">
+                    <Accordion.Body >
                         <nav className="nav flex-column">
                             {items.map(item => (
                                 <a
@@ -54,7 +54,7 @@ class SubMenu extends React.Component {
                                 </a>
                             ))}
                         </nav>
-                    </Accordion.Collapse>
+                    </Accordion.Body>
                 </Accordion>
             </Nav.Item>
         );

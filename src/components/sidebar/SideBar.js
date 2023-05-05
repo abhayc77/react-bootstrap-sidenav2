@@ -34,7 +34,7 @@ class SideBar extends React.Component {
 
                     <Nav.Item className="active">
                         <Nav.Link href="/">
-                            <FontAwesomeIcon icon={faHome} className="mr-2" />
+                            <FontAwesomeIcon icon={faHome} className="me-2" />
                             Home
                         </Nav.Link>
                     </Nav.Item>
@@ -47,28 +47,28 @@ class SideBar extends React.Component {
 
                     <Nav.Item>
                         <Nav.Link href="/">
-                            <FontAwesomeIcon icon={faBriefcase} className="mr-2" />
+                            <FontAwesomeIcon icon={faBriefcase} className="me-2" />
                             About
                         </Nav.Link>
                     </Nav.Item>
 
                     <Nav.Item>
                         <Nav.Link href="/">
-                            <FontAwesomeIcon icon={faImage} className="mr-2" />
+                            <FontAwesomeIcon icon={faImage} className="me-2" />
                             Portfolio
                         </Nav.Link>
                     </Nav.Item>
 
                     <Nav.Item>
                         <Nav.Link href="/">
-                            <FontAwesomeIcon icon={faQuestion} className="mr-2" />
+                            <FontAwesomeIcon icon={faQuestion} className="me-2" />
                             FAQ
                         </Nav.Link>
                     </Nav.Item>
 
                     <Nav.Item>
                         <Nav.Link href="/">
-                            <FontAwesomeIcon icon={faPaperPlane} className="mr-2" />
+                            <FontAwesomeIcon icon={faPaperPlane} className="me-2" />
                             Contact
                         </Nav.Link>
                     </Nav.Item>
